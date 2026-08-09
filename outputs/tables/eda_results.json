@@ -1,0 +1,978 @@
+{
+  "overall_success_rate": 68.32,
+  "overall_failure_rate": 31.68,
+  "total_activations": 500000,
+  "total_failed": 158376,
+  "failure_rate_by_region": [
+    {
+      "region": "Oceania",
+      "attempts": 40720,
+      "failures": 13084,
+      "failure_rate_pct": 32.13
+    },
+    {
+      "region": "South America",
+      "attempts": 42297,
+      "failures": 13405,
+      "failure_rate_pct": 31.69
+    },
+    {
+      "region": "Asia",
+      "attempts": 83991,
+      "failures": 26612,
+      "failure_rate_pct": 31.68
+    },
+    {
+      "region": "Europe",
+      "attempts": 206998,
+      "failures": 65529,
+      "failure_rate_pct": 31.66
+    },
+    {
+      "region": "North America",
+      "attempts": 125994,
+      "failures": 39746,
+      "failure_rate_pct": 31.55
+    }
+  ],
+  "failure_rate_by_destination": [
+    {
+      "destination": "Australia",
+      "attempts": 40720,
+      "failures": 13084,
+      "failure_rate_pct": 32.13
+    },
+    {
+      "destination": "India",
+      "attempts": 41883,
+      "failures": 13373,
+      "failure_rate_pct": 31.93
+    },
+    {
+      "destination": "France",
+      "attempts": 41865,
+      "failures": 13349,
+      "failure_rate_pct": 31.89
+    },
+    {
+      "destination": "Italy",
+      "attempts": 41432,
+      "failures": 13159,
+      "failure_rate_pct": 31.76
+    },
+    {
+      "destination": "United Kingdom",
+      "attempts": 41072,
+      "failures": 13037,
+      "failure_rate_pct": 31.74
+    },
+    {
+      "destination": "Brazil",
+      "attempts": 42297,
+      "failures": 13405,
+      "failure_rate_pct": 31.69
+    },
+    {
+      "destination": "Canada",
+      "attempts": 42192,
+      "failures": 13340,
+      "failure_rate_pct": 31.62
+    },
+    {
+      "destination": "Mexico",
+      "attempts": 41863,
+      "failures": 13210,
+      "failure_rate_pct": 31.56
+    },
+    {
+      "destination": "Germany",
+      "attempts": 41136,
+      "failures": 12974,
+      "failure_rate_pct": 31.54
+    },
+    {
+      "destination": "United States",
+      "attempts": 41939,
+      "failures": 13196,
+      "failure_rate_pct": 31.46
+    },
+    {
+      "destination": "Japan",
+      "attempts": 42108,
+      "failures": 13239,
+      "failure_rate_pct": 31.44
+    },
+    {
+      "destination": "Spain",
+      "attempts": 41493,
+      "failures": 13010,
+      "failure_rate_pct": 31.35
+    }
+  ],
+  "failure_rate_by_network_partner": [
+    {
+      "network_partner": "Telefonica",
+      "attempts": 74871,
+      "failures": 28663,
+      "failure_rate_pct": 38.28
+    },
+    {
+      "network_partner": "Airtel",
+      "attempts": 99976,
+      "failures": 32094,
+      "failure_rate_pct": 32.1
+    },
+    {
+      "network_partner": "Orange",
+      "attempts": 90141,
+      "failures": 27881,
+      "failure_rate_pct": 30.93
+    },
+    {
+      "network_partner": "AT&T",
+      "attempts": 84993,
+      "failures": 25632,
+      "failure_rate_pct": 30.16
+    },
+    {
+      "network_partner": "T-Mobile",
+      "attempts": 49720,
+      "failures": 14830,
+      "failure_rate_pct": 29.83
+    },
+    {
+      "network_partner": "Vodafone",
+      "attempts": 100299,
+      "failures": 29276,
+      "failure_rate_pct": 29.19
+    }
+  ],
+  "failure_rate_by_device_os": [
+    {
+      "device_os": "Android",
+      "attempts": 300477,
+      "failures": 103442,
+      "failure_rate_pct": 34.43
+    },
+    {
+      "device_os": "iOS",
+      "attempts": 199523,
+      "failures": 54934,
+      "failure_rate_pct": 27.53
+    }
+  ],
+  "failure_rate_by_device_model": [
+    {
+      "device_model": "Xiaomi 15",
+      "attempts": 60376,
+      "failures": 20863,
+      "failure_rate_pct": 34.56
+    },
+    {
+      "device_model": "OnePlus 13",
+      "attempts": 60068,
+      "failures": 20729,
+      "failure_rate_pct": 34.51
+    },
+    {
+      "device_model": "Samsung S23",
+      "attempts": 58729,
+      "failures": 20227,
+      "failure_rate_pct": 34.44
+    },
+    {
+      "device_model": "Samsung S24",
+      "attempts": 60037,
+      "failures": 20622,
+      "failure_rate_pct": 34.35
+    },
+    {
+      "device_model": "Google Pixel 9",
+      "attempts": 61267,
+      "failures": 21001,
+      "failure_rate_pct": 34.28
+    },
+    {
+      "device_model": "iPhone 15",
+      "attempts": 49875,
+      "failures": 13844,
+      "failure_rate_pct": 27.76
+    },
+    {
+      "device_model": "iPhone 14",
+      "attempts": 49871,
+      "failures": 13812,
+      "failure_rate_pct": 27.7
+    },
+    {
+      "device_model": "iPhone SE",
+      "attempts": 49997,
+      "failures": 13696,
+      "failure_rate_pct": 27.39
+    },
+    {
+      "device_model": "iPhone 16",
+      "attempts": 49780,
+      "failures": 13582,
+      "failure_rate_pct": 27.28
+    }
+  ],
+  "failure_rate_by_os_version": [
+    {
+      "os_version": 14,
+      "attempts": 99662,
+      "failures": 34397,
+      "failure_rate_pct": 34.51
+    },
+    {
+      "os_version": 13,
+      "attempts": 100891,
+      "failures": 34695,
+      "failure_rate_pct": 34.39
+    },
+    {
+      "os_version": 15,
+      "attempts": 99924,
+      "failures": 34350,
+      "failure_rate_pct": 34.38
+    },
+    {
+      "os_version": 17,
+      "attempts": 99137,
+      "failures": 27344,
+      "failure_rate_pct": 27.58
+    },
+    {
+      "os_version": 18,
+      "attempts": 100386,
+      "failures": 27590,
+      "failure_rate_pct": 27.48
+    }
+  ],
+  "failure_rate_by_hour": [
+    {
+      "hour": 0,
+      "attempts": 20729,
+      "failures": 6616,
+      "failure_rate_pct": 31.92
+    },
+    {
+      "hour": 1,
+      "attempts": 20795,
+      "failures": 6503,
+      "failure_rate_pct": 31.27
+    },
+    {
+      "hour": 2,
+      "attempts": 20511,
+      "failures": 6497,
+      "failure_rate_pct": 31.68
+    },
+    {
+      "hour": 3,
+      "attempts": 20562,
+      "failures": 6554,
+      "failure_rate_pct": 31.87
+    },
+    {
+      "hour": 4,
+      "attempts": 20777,
+      "failures": 6608,
+      "failure_rate_pct": 31.8
+    },
+    {
+      "hour": 5,
+      "attempts": 20641,
+      "failures": 6403,
+      "failure_rate_pct": 31.02
+    },
+    {
+      "hour": 6,
+      "attempts": 20547,
+      "failures": 6524,
+      "failure_rate_pct": 31.75
+    },
+    {
+      "hour": 7,
+      "attempts": 20885,
+      "failures": 6557,
+      "failure_rate_pct": 31.4
+    },
+    {
+      "hour": 8,
+      "attempts": 20974,
+      "failures": 6580,
+      "failure_rate_pct": 31.37
+    },
+    {
+      "hour": 9,
+      "attempts": 20678,
+      "failures": 6534,
+      "failure_rate_pct": 31.6
+    },
+    {
+      "hour": 10,
+      "attempts": 20808,
+      "failures": 6582,
+      "failure_rate_pct": 31.63
+    },
+    {
+      "hour": 11,
+      "attempts": 20914,
+      "failures": 6537,
+      "failure_rate_pct": 31.26
+    },
+    {
+      "hour": 12,
+      "attempts": 20815,
+      "failures": 6650,
+      "failure_rate_pct": 31.95
+    },
+    {
+      "hour": 13,
+      "attempts": 20734,
+      "failures": 6514,
+      "failure_rate_pct": 31.42
+    },
+    {
+      "hour": 14,
+      "attempts": 20868,
+      "failures": 6612,
+      "failure_rate_pct": 31.68
+    },
+    {
+      "hour": 15,
+      "attempts": 20900,
+      "failures": 6711,
+      "failure_rate_pct": 32.11
+    },
+    {
+      "hour": 16,
+      "attempts": 20740,
+      "failures": 6588,
+      "failure_rate_pct": 31.76
+    },
+    {
+      "hour": 17,
+      "attempts": 21015,
+      "failures": 6696,
+      "failure_rate_pct": 31.86
+    },
+    {
+      "hour": 18,
+      "attempts": 21048,
+      "failures": 6735,
+      "failure_rate_pct": 32.0
+    },
+    {
+      "hour": 19,
+      "attempts": 21086,
+      "failures": 6721,
+      "failure_rate_pct": 31.87
+    },
+    {
+      "hour": 20,
+      "attempts": 21058,
+      "failures": 6746,
+      "failure_rate_pct": 32.04
+    },
+    {
+      "hour": 21,
+      "attempts": 20807,
+      "failures": 6564,
+      "failure_rate_pct": 31.55
+    },
+    {
+      "hour": 22,
+      "attempts": 21172,
+      "failures": 6687,
+      "failure_rate_pct": 31.58
+    },
+    {
+      "hour": 23,
+      "attempts": 20936,
+      "failures": 6657,
+      "failure_rate_pct": 31.8
+    }
+  ],
+  "failure_rate_by_month": [
+    {
+      "month": 1,
+      "attempts": 1859,
+      "failures": 545,
+      "failure_rate_pct": 29.32
+    },
+    {
+      "month": 2,
+      "attempts": 4886,
+      "failures": 1556,
+      "failure_rate_pct": 31.85
+    },
+    {
+      "month": 3,
+      "attempts": 9590,
+      "failures": 3057,
+      "failure_rate_pct": 31.88
+    },
+    {
+      "month": 4,
+      "attempts": 14088,
+      "failures": 4491,
+      "failure_rate_pct": 31.88
+    },
+    {
+      "month": 5,
+      "attempts": 20121,
+      "failures": 6411,
+      "failure_rate_pct": 31.86
+    },
+    {
+      "month": 6,
+      "attempts": 25070,
+      "failures": 7896,
+      "failure_rate_pct": 31.5
+    },
+    {
+      "month": 7,
+      "attempts": 32999,
+      "failures": 10359,
+      "failure_rate_pct": 31.39
+    },
+    {
+      "month": 8,
+      "attempts": 41906,
+      "failures": 13460,
+      "failure_rate_pct": 32.12
+    },
+    {
+      "month": 9,
+      "attempts": 51010,
+      "failures": 16093,
+      "failure_rate_pct": 31.55
+    },
+    {
+      "month": 10,
+      "attempts": 67779,
+      "failures": 21460,
+      "failure_rate_pct": 31.66
+    },
+    {
+      "month": 11,
+      "attempts": 87169,
+      "failures": 27544,
+      "failure_rate_pct": 31.6
+    },
+    {
+      "month": 12,
+      "attempts": 143523,
+      "failures": 45504,
+      "failure_rate_pct": 31.71
+    }
+  ],
+  "duration_by_status": [
+    {
+      "activation_status": "FAILED",
+      "avg_duration_sec": 99.9,
+      "median_duration_sec": 100.0
+    },
+    {
+      "activation_status": "SUCCESS",
+      "avg_duration_sec": 99.8,
+      "median_duration_sec": 100.0
+    }
+  ],
+  "retry_behaviour": [
+    {
+      "retry_count": 0,
+      "n": 341624,
+      "failures": 0,
+      "failure_rate_pct": 0.0
+    },
+    {
+      "retry_count": 1,
+      "n": 52616,
+      "failures": 52616,
+      "failure_rate_pct": 100.0
+    },
+    {
+      "retry_count": 2,
+      "n": 52754,
+      "failures": 52754,
+      "failure_rate_pct": 100.0
+    },
+    {
+      "retry_count": 3,
+      "n": 53006,
+      "failures": 53006,
+      "failure_rate_pct": 100.0
+    }
+  ],
+  "pct_with_retry": 31.68,
+  "signal_latency_by_status": [
+    {
+      "activation_status": "SUCCESS",
+      "avg_signal": 57.7,
+      "avg_latency": 253.3
+    },
+    {
+      "activation_status": "FAILED",
+      "avg_signal": 49.1,
+      "avg_latency": 305.2
+    }
+  ],
+  "error_code_frequency": [
+    {
+      "failure_code": "ERR101",
+      "n": 20208,
+      "error_name": "Invalid SIM Profile",
+      "error_category": "Provisioning",
+      "severity": "Critical",
+      "owner_team": "Engineering"
+    },
+    {
+      "failure_code": "ERR102",
+      "n": 19623,
+      "error_name": "Network Timeout",
+      "error_category": "Network",
+      "severity": "High",
+      "owner_team": "Telecom Operations"
+    },
+    {
+      "failure_code": "ERR103",
+      "n": 19762,
+      "error_name": "Authentication Failed",
+      "error_category": "Authentication",
+      "severity": "Critical",
+      "owner_team": "Backend"
+    },
+    {
+      "failure_code": "ERR104",
+      "n": 19796,
+      "error_name": "Unsupported Device",
+      "error_category": "Device",
+      "severity": "Medium",
+      "owner_team": "Product"
+    },
+    {
+      "failure_code": "ERR105",
+      "n": 19731,
+      "error_name": "APN Configuration Error",
+      "error_category": "Configuration",
+      "severity": "High",
+      "owner_team": "Technical Support"
+    },
+    {
+      "failure_code": "ERR106",
+      "n": 19702,
+      "error_name": "Signal Lost",
+      "error_category": "Network",
+      "severity": "Medium",
+      "owner_team": "Telecom Operations"
+    },
+    {
+      "failure_code": "ERR107",
+      "n": 19790,
+      "error_name": "QR Code Expired",
+      "error_category": "Provisioning",
+      "severity": "Low",
+      "owner_team": "Customer Support"
+    },
+    {
+      "failure_code": "ERR108",
+      "n": 19764,
+      "error_name": "Unknown Error",
+      "error_category": "Unknown",
+      "severity": "Medium",
+      "owner_team": "Engineering"
+    }
+  ],
+  "network_status_dist": [
+    {
+      "network_status": "Healthy",
+      "n": 219916
+    },
+    {
+      "network_status": "Degraded",
+      "n": 25118
+    },
+    {
+      "network_status": "Outage",
+      "n": 4966
+    }
+  ],
+  "network_partner_health": [
+    {
+      "network_partner": "Telefonica",
+      "avg_latency": 98.7,
+      "avg_packet_loss": 0.95,
+      "avg_signal": 83.4,
+      "outages": 788,
+      "degraded": 3782,
+      "n": 37491
+    },
+    {
+      "network_partner": "Orange",
+      "avg_latency": 98.4,
+      "avg_packet_loss": 0.94,
+      "avg_signal": 83.5,
+      "outages": 877,
+      "degraded": 4583,
+      "n": 44957
+    },
+    {
+      "network_partner": "T-Mobile",
+      "avg_latency": 98.3,
+      "avg_packet_loss": 0.95,
+      "avg_signal": 83.5,
+      "outages": 523,
+      "degraded": 2526,
+      "n": 25291
+    },
+    {
+      "network_partner": "Airtel",
+      "avg_latency": 98.0,
+      "avg_packet_loss": 0.93,
+      "avg_signal": 83.6,
+      "outages": 959,
+      "degraded": 4938,
+      "n": 49809
+    },
+    {
+      "network_partner": "Vodafone",
+      "avg_latency": 98.0,
+      "avg_packet_loss": 0.93,
+      "avg_signal": 83.5,
+      "outages": 986,
+      "degraded": 5015,
+      "n": 49946
+    },
+    {
+      "network_partner": "AT&T",
+      "avg_latency": 97.9,
+      "avg_packet_loss": 0.94,
+      "avg_signal": 83.5,
+      "outages": 833,
+      "degraded": 4274,
+      "n": 42506
+    }
+  ],
+  "network_region_health": [
+    {
+      "region": "Asia",
+      "avg_latency": 98.3,
+      "avg_packet_loss": 0.94
+    },
+    {
+      "region": "North America",
+      "avg_latency": 98.3,
+      "avg_packet_loss": 0.94
+    },
+    {
+      "region": "Europe",
+      "avg_latency": 98.2,
+      "avg_packet_loss": 0.94
+    },
+    {
+      "region": "Oceania",
+      "avg_latency": 98.0,
+      "avg_packet_loss": 0.94
+    },
+    {
+      "region": "South America",
+      "avg_latency": 97.7,
+      "avg_packet_loss": 0.94
+    }
+  ],
+  "tickets_by_category": [
+    {
+      "issue_category": "Activation Failed",
+      "n": 22106,
+      "avg_res_hrs": 22.9,
+      "avg_csat": 3.74
+    },
+    {
+      "issue_category": "Network Connection",
+      "n": 10060,
+      "avg_res_hrs": 22.93,
+      "avg_csat": 3.73
+    },
+    {
+      "issue_category": "QR Code Invalid",
+      "n": 8158,
+      "avg_res_hrs": 22.64,
+      "avg_csat": 3.74
+    },
+    {
+      "issue_category": "Slow Activation",
+      "n": 5689,
+      "avg_res_hrs": 22.6,
+      "avg_csat": 3.76
+    },
+    {
+      "issue_category": "Device Compatibility",
+      "n": 5524,
+      "avg_res_hrs": 22.88,
+      "avg_csat": 3.73
+    },
+    {
+      "issue_category": "Payment Issue",
+      "n": 3887,
+      "avg_res_hrs": 22.52,
+      "avg_csat": 3.77
+    }
+  ],
+  "tickets_by_channel": [
+    {
+      "support_channel": "Email",
+      "n": 16738,
+      "avg_res_hrs": 22.72,
+      "avg_csat": 3.75
+    },
+    {
+      "support_channel": "Chat",
+      "n": 30247,
+      "avg_res_hrs": 22.86,
+      "avg_csat": 3.74
+    },
+    {
+      "support_channel": "Phone",
+      "n": 8439,
+      "avg_res_hrs": 22.77,
+      "avg_csat": 3.74
+    }
+  ],
+  "tickets_by_team": [
+    {
+      "assigned_team": "Billing",
+      "n": 13917,
+      "avg_res_hrs": 40.23,
+      "avg_csat": 3.75
+    },
+    {
+      "assigned_team": "Customer Support",
+      "n": 13799,
+      "avg_res_hrs": 40.1,
+      "avg_csat": 3.73
+    },
+    {
+      "assigned_team": "Technical Support",
+      "n": 13960,
+      "avg_res_hrs": 5.45,
+      "avg_csat": 3.73
+    },
+    {
+      "assigned_team": "Engineering",
+      "n": 13748,
+      "avg_res_hrs": 5.44,
+      "avg_csat": 3.75
+    }
+  ],
+  "tickets_by_priority": [
+    {
+      "priority": "High",
+      "n": 13632,
+      "avg_res_hrs": 7.47
+    },
+    {
+      "priority": "Critical",
+      "n": 14076,
+      "avg_res_hrs": 3.49
+    },
+    {
+      "priority": "Medium",
+      "n": 6905,
+      "avg_res_hrs": 16.02
+    },
+    {
+      "priority": "Low",
+      "n": 20811,
+      "avg_res_hrs": 48.17
+    }
+  ],
+  "tickets_by_status": [
+    {
+      "resolution_status": "Open",
+      "n": 4458,
+      "avg_csat": 1.99
+    },
+    {
+      "resolution_status": "Escalated",
+      "n": 5516,
+      "avg_csat": 2.99
+    },
+    {
+      "resolution_status": "Resolved",
+      "n": 45450,
+      "avg_csat": 4.0
+    }
+  ],
+  "refund_requested_rate": 12.06,
+  "refund_approval": [
+    {
+      "refund_approved": true,
+      "n": 5724
+    },
+    {
+      "refund_approved": false,
+      "n": 962
+    }
+  ],
+  "refund_by_category": [
+    {
+      "issue_category": "Activation Failed",
+      "n": 2680
+    },
+    {
+      "issue_category": "Network Connection",
+      "n": 1239
+    },
+    {
+      "issue_category": "QR Code Invalid",
+      "n": 961
+    },
+    {
+      "issue_category": "Device Compatibility",
+      "n": 675
+    },
+    {
+      "issue_category": "Slow Activation",
+      "n": 665
+    },
+    {
+      "issue_category": "Payment Issue",
+      "n": 466
+    }
+  ],
+  "csat_distribution": [
+    {
+      "csat_score": 1,
+      "n": 1516
+    },
+    {
+      "csat_score": 2,
+      "n": 3359
+    },
+    {
+      "csat_score": 3,
+      "n": 18287
+    },
+    {
+      "csat_score": 4,
+      "n": 17083
+    },
+    {
+      "csat_score": 5,
+      "n": 15179
+    }
+  ],
+  "customer_segment_dist": [
+    {
+      "customer_segment": "Business",
+      "n": 10000,
+      "avg_price": 15.73
+    },
+    {
+      "customer_segment": "New",
+      "n": 55112,
+      "avg_price": 15.73
+    },
+    {
+      "customer_segment": "Returning",
+      "n": 34888,
+      "avg_price": 15.75
+    }
+  ],
+  "failure_rate_by_segment": [
+    {
+      "customer_segment": "Business",
+      "attempts": 49992,
+      "failures": 15779,
+      "failure_rate_pct": 31.56
+    },
+    {
+      "customer_segment": "New",
+      "attempts": 275645,
+      "failures": 87680,
+      "failure_rate_pct": 31.81
+    },
+    {
+      "customer_segment": "Returning",
+      "attempts": 174363,
+      "failures": 54917,
+      "failure_rate_pct": 31.5
+    }
+  ],
+  "plan_dist": [
+    {
+      "plan_type": "3 GB",
+      "n": 25091,
+      "avg_price": 9.99
+    },
+    {
+      "plan_type": "Unlimited",
+      "n": 10063,
+      "avg_price": 39.99
+    },
+    {
+      "plan_type": "1 GB",
+      "n": 25063,
+      "avg_price": 4.99
+    },
+    {
+      "plan_type": "10 GB",
+      "n": 19952,
+      "avg_price": 24.99
+    },
+    {
+      "plan_type": "5 GB",
+      "n": 19831,
+      "avg_price": 14.99
+    }
+  ],
+  "total_revenue_usd": 1574010.0,
+  "approved_refund_customers": 5582,
+  "revenue_loss_from_approved_refunds_usd": 88459.18,
+  "failed_activations_total": 158376,
+  "failed_with_ticket": 55424,
+  "silent_failures_no_ticket": 102952,
+  "silent_failure_pct": 65.0,
+  "silent_failure_customers": 64174,
+  "revenue_at_risk_silent_failures_usd": 1008028.26,
+  "failure_rate_by_os_device": [
+    {
+      "device_os": "Android",
+      "os_version": 14,
+      "attempts": 99662,
+      "failures": 34397,
+      "failure_rate_pct": 34.51
+    },
+    {
+      "device_os": "Android",
+      "os_version": 13,
+      "attempts": 100891,
+      "failures": 34695,
+      "failure_rate_pct": 34.39
+    },
+    {
+      "device_os": "Android",
+      "os_version": 15,
+      "attempts": 99924,
+      "failures": 34350,
+      "failure_rate_pct": 34.38
+    },
+    {
+      "device_os": "iOS",
+      "os_version": 17,
+      "attempts": 99137,
+      "failures": 27344,
+      "failure_rate_pct": 27.58
+    },
+    {
+      "device_os": "iOS",
+      "os_version": 18,
+      "attempts": 100386,
+      "failures": 27590,
+      "failure_rate_pct": 27.48
+    }
+  ]
+}

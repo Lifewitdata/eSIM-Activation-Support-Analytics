@@ -1,0 +1,574 @@
+{
+  "combo_partner_os": [
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "attempts": 44829,
+      "failures": 18441,
+      "failure_rate_pct": 41.14
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "attempts": 59846,
+      "failures": 20921,
+      "failure_rate_pct": 34.96
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "iOS",
+      "attempts": 30042,
+      "failures": 10222,
+      "failure_rate_pct": 34.03
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "Android",
+      "attempts": 53950,
+      "failures": 18141,
+      "failure_rate_pct": 33.63
+    },
+    {
+      "network_partner": "AT&T",
+      "device_os": "Android",
+      "attempts": 51344,
+      "failures": 16928,
+      "failure_rate_pct": 32.97
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "Android",
+      "attempts": 30032,
+      "failures": 9795,
+      "failure_rate_pct": 32.62
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "Android",
+      "attempts": 60476,
+      "failures": 19216,
+      "failure_rate_pct": 31.77
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "iOS",
+      "attempts": 40130,
+      "failures": 11173,
+      "failure_rate_pct": 27.84
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "iOS",
+      "attempts": 36191,
+      "failures": 9740,
+      "failure_rate_pct": 26.91
+    },
+    {
+      "network_partner": "AT&T",
+      "device_os": "iOS",
+      "attempts": 33649,
+      "failures": 8704,
+      "failure_rate_pct": 25.87
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "iOS",
+      "attempts": 19688,
+      "failures": 5035,
+      "failure_rate_pct": 25.57
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "attempts": 39823,
+      "failures": 10060,
+      "failure_rate_pct": 25.26
+    }
+  ],
+  "combo_partner_os_region": [
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "region": "Oceania",
+      "attempts": 3659,
+      "failures": 1528,
+      "failure_rate_pct": 41.76
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "region": "Asia",
+      "attempts": 7482,
+      "failures": 3122,
+      "failure_rate_pct": 41.73
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "region": "North America",
+      "attempts": 11072,
+      "failures": 4558,
+      "failure_rate_pct": 41.17
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "region": "Europe",
+      "attempts": 18776,
+      "failures": 7699,
+      "failure_rate_pct": 41.0
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "region": "South America",
+      "attempts": 3840,
+      "failures": 1534,
+      "failure_rate_pct": 39.95
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "region": "South America",
+      "attempts": 4995,
+      "failures": 1800,
+      "failure_rate_pct": 36.04
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "region": "Oceania",
+      "attempts": 4975,
+      "failures": 1773,
+      "failure_rate_pct": 35.64
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "iOS",
+      "region": "South America",
+      "attempts": 2488,
+      "failures": 884,
+      "failure_rate_pct": 35.53
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "region": "North America",
+      "attempts": 14974,
+      "failures": 5258,
+      "failure_rate_pct": 35.11
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "region": "Europe",
+      "attempts": 24872,
+      "failures": 8628,
+      "failure_rate_pct": 34.69
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "region": "Asia",
+      "attempts": 10030,
+      "failures": 3462,
+      "failure_rate_pct": 34.52
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "iOS",
+      "region": "Europe",
+      "attempts": 12346,
+      "failures": 4238,
+      "failure_rate_pct": 34.33
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "Android",
+      "region": "South America",
+      "attempts": 4703,
+      "failures": 1605,
+      "failure_rate_pct": 34.13
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "Android",
+      "region": "Asia",
+      "attempts": 8940,
+      "failures": 3039,
+      "failure_rate_pct": 33.99
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "Android",
+      "region": "Oceania",
+      "attempts": 4445,
+      "failures": 1511,
+      "failure_rate_pct": 33.99
+    }
+  ],
+  "combo_partner_os_region_bottom": [
+    {
+      "network_partner": "AT&T",
+      "device_os": "iOS",
+      "region": "South America",
+      "attempts": 2807,
+      "failures": 721,
+      "failure_rate_pct": 25.69
+    },
+    {
+      "network_partner": "AT&T",
+      "device_os": "iOS",
+      "region": "Europe",
+      "attempts": 13811,
+      "failures": 3525,
+      "failure_rate_pct": 25.52
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "region": "South America",
+      "attempts": 3316,
+      "failures": 845,
+      "failure_rate_pct": 25.48
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "iOS",
+      "region": "Asia",
+      "attempts": 3334,
+      "failures": 847,
+      "failure_rate_pct": 25.4
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "region": "Oceania",
+      "attempts": 3245,
+      "failures": 824,
+      "failure_rate_pct": 25.39
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "region": "Asia",
+      "attempts": 6760,
+      "failures": 1707,
+      "failure_rate_pct": 25.25
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "region": "North America",
+      "attempts": 10242,
+      "failures": 2585,
+      "failure_rate_pct": 25.24
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "region": "Europe",
+      "attempts": 16260,
+      "failures": 4099,
+      "failure_rate_pct": 25.21
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "iOS",
+      "region": "Oceania",
+      "attempts": 1537,
+      "failures": 382,
+      "failure_rate_pct": 24.85
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "iOS",
+      "region": "South America",
+      "attempts": 1663,
+      "failures": 403,
+      "failure_rate_pct": 24.23
+    }
+  ],
+  "pareto_failure_codes": [
+    {
+      "failure_code": "ERR101",
+      "n": 20208,
+      "pct_of_failures": 12.76,
+      "cumulative_pct": 12.76
+    },
+    {
+      "failure_code": "ERR104",
+      "n": 19796,
+      "pct_of_failures": 12.5,
+      "cumulative_pct": 25.26
+    },
+    {
+      "failure_code": "ERR107",
+      "n": 19790,
+      "pct_of_failures": 12.5,
+      "cumulative_pct": 37.76
+    },
+    {
+      "failure_code": "ERR108",
+      "n": 19764,
+      "pct_of_failures": 12.48,
+      "cumulative_pct": 50.24
+    },
+    {
+      "failure_code": "ERR103",
+      "n": 19762,
+      "pct_of_failures": 12.48,
+      "cumulative_pct": 62.72
+    },
+    {
+      "failure_code": "ERR105",
+      "n": 19731,
+      "pct_of_failures": 12.46,
+      "cumulative_pct": 75.18
+    },
+    {
+      "failure_code": "ERR106",
+      "n": 19702,
+      "pct_of_failures": 12.44,
+      "cumulative_pct": 87.62
+    },
+    {
+      "failure_code": "ERR102",
+      "n": 19623,
+      "pct_of_failures": 12.39,
+      "cumulative_pct": 100.01
+    }
+  ],
+  "pareto_partner_os_contribution": [
+    {
+      "network_partner": "Airtel",
+      "device_os": "Android",
+      "attempts": 59846,
+      "failures": 20921,
+      "failure_rate_pct": 34.96,
+      "pct_of_total_failures": 13.21
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "Android",
+      "attempts": 60476,
+      "failures": 19216,
+      "failure_rate_pct": 31.77,
+      "pct_of_total_failures": 12.13
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "Android",
+      "attempts": 44829,
+      "failures": 18441,
+      "failure_rate_pct": 41.14,
+      "pct_of_total_failures": 11.64
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "Android",
+      "attempts": 53950,
+      "failures": 18141,
+      "failure_rate_pct": 33.63,
+      "pct_of_total_failures": 11.45
+    },
+    {
+      "network_partner": "AT&T",
+      "device_os": "Android",
+      "attempts": 51344,
+      "failures": 16928,
+      "failure_rate_pct": 32.97,
+      "pct_of_total_failures": 10.69
+    },
+    {
+      "network_partner": "Airtel",
+      "device_os": "iOS",
+      "attempts": 40130,
+      "failures": 11173,
+      "failure_rate_pct": 27.84,
+      "pct_of_total_failures": 7.05
+    },
+    {
+      "network_partner": "Telefonica",
+      "device_os": "iOS",
+      "attempts": 30042,
+      "failures": 10222,
+      "failure_rate_pct": 34.03,
+      "pct_of_total_failures": 6.45
+    },
+    {
+      "network_partner": "Vodafone",
+      "device_os": "iOS",
+      "attempts": 39823,
+      "failures": 10060,
+      "failure_rate_pct": 25.26,
+      "pct_of_total_failures": 6.35
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "Android",
+      "attempts": 30032,
+      "failures": 9795,
+      "failure_rate_pct": 32.62,
+      "pct_of_total_failures": 6.18
+    },
+    {
+      "network_partner": "Orange",
+      "device_os": "iOS",
+      "attempts": 36191,
+      "failures": 9740,
+      "failure_rate_pct": 26.91,
+      "pct_of_total_failures": 6.15
+    },
+    {
+      "network_partner": "AT&T",
+      "device_os": "iOS",
+      "attempts": 33649,
+      "failures": 8704,
+      "failure_rate_pct": 25.87,
+      "pct_of_total_failures": 5.5
+    },
+    {
+      "network_partner": "T-Mobile",
+      "device_os": "iOS",
+      "attempts": 19688,
+      "failures": 5035,
+      "failure_rate_pct": 25.57,
+      "pct_of_total_failures": 3.18
+    }
+  ],
+  "chisq_partner_vs_status": {
+    "chi2": 1997.55,
+    "p_value": 0.0,
+    "dof": 5
+  },
+  "chisq_os_vs_status": {
+    "chi2": 2632.29,
+    "p_value": 0.0,
+    "dof": 1
+  },
+  "chisq_region_vs_status": {
+    "chi2": 4.93,
+    "p_value": 0.2941594338477025,
+    "dof": 4
+  },
+  "ttest_latency_failed_vs_success": {
+    "t_stat": 130.464,
+    "p_value": 0.0,
+    "mean_failed": 305.25,
+    "mean_success": 253.27
+  },
+  "ttest_signal_failed_vs_success": {
+    "t_stat": -106.449,
+    "p_value": 0.0,
+    "mean_failed": 49.13,
+    "mean_success": 57.67
+  },
+  "anova_latency_by_partner": {
+    "f_stat": 1.4,
+    "p_value": 0.22063439905922128
+  },
+  "anova_csat_by_channel": {
+    "f_stat": 0.982,
+    "p_value": 0.37456910894555456
+  },
+  "anova_restime_by_team": {
+    "f_stat": 31651.818,
+    "p_value": 0.0
+  },
+  "correlation_matrix_activation": {
+    "signal_strength": {
+      "signal_strength": 1.0,
+      "latency_ms": -0.001,
+      "activation_duration_sec": 0.002,
+      "retry_count": -0.136,
+      "os_version": 0.002,
+      "failed": -0.151
+    },
+    "latency_ms": {
+      "signal_strength": -0.001,
+      "latency_ms": 1.0,
+      "activation_duration_sec": -0.002,
+      "retry_count": 0.163,
+      "os_version": -0.001,
+      "failed": 0.182
+    },
+    "activation_duration_sec": {
+      "signal_strength": 0.002,
+      "latency_ms": -0.002,
+      "activation_duration_sec": 1.0,
+      "retry_count": 0.002,
+      "os_version": -0.001,
+      "failed": 0.001
+    },
+    "retry_count": {
+      "signal_strength": -0.136,
+      "latency_ms": 0.163,
+      "activation_duration_sec": 0.002,
+      "retry_count": 1.0,
+      "os_version": -0.06,
+      "failed": 0.897
+    },
+    "os_version": {
+      "signal_strength": 0.002,
+      "latency_ms": -0.001,
+      "activation_duration_sec": -0.001,
+      "retry_count": -0.06,
+      "os_version": 1.0,
+      "failed": -0.067
+    },
+    "failed": {
+      "signal_strength": -0.151,
+      "latency_ms": 0.182,
+      "activation_duration_sec": 0.001,
+      "retry_count": 0.897,
+      "os_version": -0.067,
+      "failed": 1.0
+    }
+  },
+  "correlation_matrix_network": {
+    "latency_ms": {
+      "latency_ms": 1.0,
+      "packet_loss_pct": 0.811,
+      "signal_strength": -0.74,
+      "bandwidth_mbps": -0.511
+    },
+    "packet_loss_pct": {
+      "latency_ms": 0.811,
+      "packet_loss_pct": 1.0,
+      "signal_strength": -0.741,
+      "bandwidth_mbps": -0.483
+    },
+    "signal_strength": {
+      "latency_ms": -0.74,
+      "packet_loss_pct": -0.741,
+      "signal_strength": 1.0,
+      "bandwidth_mbps": 0.491
+    },
+    "bandwidth_mbps": {
+      "latency_ms": -0.511,
+      "packet_loss_pct": -0.483,
+      "signal_strength": 0.491,
+      "bandwidth_mbps": 1.0
+    }
+  },
+  "failure_rate_95ci": {
+    "point": 31.68,
+    "ci_low": 31.55,
+    "ci_high": 31.8
+  },
+  "telefonica_failure_95ci": {
+    "point": 38.28,
+    "ci_low": 37.93,
+    "ci_high": 38.63
+  },
+  "other_partners_failure_95ci": {
+    "point": 30.51,
+    "ci_low": 30.37,
+    "ci_high": 30.65
+  },
+  "ztest_telefonica_vs_others": {
+    "z_stat": 42.15,
+    "p_value": 0.0
+  }
+}
