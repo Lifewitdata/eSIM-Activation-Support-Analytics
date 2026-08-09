@@ -101,13 +101,7 @@ holafly_project/
 │   ├── 03_feature_engineering.ipynb            Health Score, Risk Segment
 │   └── 04_root_cause_and_statistical_analysis.ipynb
 ├── sql/                                 MySQL 8.0 implementation
-│   ├── 00_schema.sql                    DDL — 5 tables, PKs, FKs, indexes
-│   ├── 01_load_data.sql                 LOAD DATA INFILE, 906K rows
-│   ├── 02_data_quality.sql
-│   ├── 03-04_eda_queries*.sql
-│   ├── 05_root_cause_analysis.sql
-│   ├── 06_feature_engineering.sql       persisted table + 4 views
-│   ├── 07_statistical_analysis.sql      chi-sq/t/F/correlation from raw formulas
+      chi-sq/t/F/correlation from raw formulas
 │   └── advanced_query_pack.sql          20 queries — window fns, CTEs, self-joins
 ├── docs/                                Stakeholder-facing deliverables
 │   ├── 01_business_understanding.md
